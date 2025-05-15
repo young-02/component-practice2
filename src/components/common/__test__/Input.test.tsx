@@ -3,7 +3,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 
 describe("input", () => {
   test("input inputType text 일때", () => {
-    render(<Input />);
+    render(<Input inputType="text" />);
     const inputTypeText =
       screen.getByPlaceholderText("할 일의 제목을 적어주세요.");
 
