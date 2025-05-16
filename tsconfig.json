@@ -19,7 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@public/*": ["./public/*"] //public 폴더 경로 설정 @public/images/logo.png 이렇게 사용
     }
   },
   "include": [
